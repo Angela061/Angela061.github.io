@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+@font-face{
+font-family: Roboto;
+src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: Roboto;
+    background-image:url(../img/21.jpg);
+    background-attachment: fixed;
+    padding: 30px;
+
+}
+
+main{
+width: 70%;   
+padding: 40px;
+background-color: aliceblue;
+margin-left: 15%;
+text-align: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+box-shadow: 0 0 10px 1px rebeccapurple;
+}
+
+h1{
+width: 100%;
+font-size: 50px;
+}
+
+p{
+width: 100%;
+font-size: 50px;
+}
+
+.photo{
+width: 190px;
+height: 190px;
+background-color: beige;
+margin: 15px;
+transition: all 0.5s ease;
+border-radius: 100px;
+}
+
+.photo:hover{
+    transform: rotate(360deg) scale(2);
+}
+
+
+.photo1{
+    background-image: url(../img/16.jpg);
+    background-size: 100%;
+}
+
+.photo2{
+    background-image: url(../img/10.jpg);
+    background-size: 100%;
+}
+
+.photo3{
+    background-image: url(../img/12.jpg);
+    background-size: 100%;
+}
+
+.photo4{
+    background-image: url(../img/4.jpg);
+    background-size: 100%;
+}
+
+.photo5{
+    background-image: url(../img/5.jpg);
+    background-size: 100%;
+}
+
+.photo6{
+    background-image: url(../img/13.jpg);
+    background-size: 100%;
+}
+
+.photo7{
+    background-image: url(../img/7.jpg);
+    background-size: 100%;
+}
+
+.photo8{
+    background-image: url(../img/8.jpg);
+    background-size: 100%;
+}
+
+.photo9{
+    background-image: url(../img/20.jpg);
+    background-size: 100%;
+}
+
+.photo10{
+    background-image: url(../img/14.jpg);
+    background-size: 100%;
+}
+
+.photo11{
+    background-image: url(../img/28.jpg);
+    background-size: 100%;
+}
+
+.photo12{
+    background-image: url(../img/27.jpg);
+    background-size: 100%;
+}
